@@ -1,0 +1,245 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<title>Qinfeng (Javen) Shi</title>
+</head><body>
+
+<div id="container">
+
+<div id="leftnav">
+<p>
+  <a href="index.html">Home</a><br>
+  <a href="index.html#news">News</a><br>  
+  <a href="index.html#research">Research</a><br>  
+  <a href="pubs.html">Publications</a><br>
+  <a href="grants.html">Grants</a><br> 
+  <a href="teaching.html">Teaching</a><br>
+  <a href="supervise.html">Group</a><br>
+  <a href="code.html">Codes</a><br>
+</p>
+</div>
+
+
+<div id="content">
+	
+	<!-- ML Training and Tutorials -->
+	
+	<tr>
+  <td colspan=2>
+    <a name="teaching"></a> <h3><img src="images/new.gif"> Machine Learning Training and Tutorials </h3>
+	It is mainly to provide training for my students, but it is open to everyone who is interested. I hope this can propagate knowledge, and inspire ideas and foster innovation. I will be presenting a bulk of the program, and will try to make it valuable to not only students, but also postdocs and academics.  
+	Note that not all content of the talks are written in the slides. Roughly 40% of the content are expressed on white board or verbally. 
+
+    <ol>
+      <li> Title: <STRONG> What is machine learning? From the shallow end to deep graph neural networks </STRONG> [<a href="talk/ML01_What_is_machine_learning.pdf">pdf</a>], 22 Nov., 2018. Speaker: Javen Shi.</p>
+      Abstract: I will be covering the basics of machine learning. I will explain the concepts, theory, applications, and industry's expectation. I will then move from traditional machine learning to deep learning. In particular, I will focus on DeepMind's latest work, deep graph neural networks (https://arxiv.org/abs/1806.01261), which can recover many very recent methods in the intersection of graphical models and deep learning. I will also share my thoughts on the challenges and opportunities. 
+      </p></li>
+      
+      <li> Title: <STRONG>Deep graph networks and Support Vector Machines </STRONG> [<a href="talk/ML02_DeepGraphNet.pdf">pdf1</a>, <a href="talk/ML02_SVM.pdf">pdf2</a>], 29 Nov., 2018. Speaker: Javen Shi. </p>
+      Abstract: I will continue to cover DeepMind's graph networks (https://arxiv.org/abs/1806.01261), and fill in some background of graphical models. I will also cover Support Vector Machines and its related background such as convexity and optimisation.  
+      </p></li>
+      
+      <li> Title: <STRONG>Support Vector Machines </STRONG> [<a href="talk/ML03_SVM.pdf">pdf</a>], 6 Dec., 2018. Speaker: Javen Shi. </p>
+      Abstract: I will continue to cover Support Vector Machines (SVM), including binary class SVM, one class SVM (for novelty detection), and briefly mention multi-class SVM and structured SVM. 
+      </p></li>
+      
+      <li> Title: <STRONG>Deep Generative Models --- Generative Adversarial Networks (GANs) and Beyond</STRONG> [<a href="talk/ML04_Deep_Generative_Models.pdf">pdf</a>], 13 Dec., 2018. Speaker: Ehsan Abbasnejad. </p>
+      Abstract: Ehsan will cover Generative Adversarial Networks (GANs) and other deep generative models such as variational autoencoders (VAE). 
+      </p></li> 
+      
+       <li>  Title: <STRONG> Uncertainty in Machine Learning</STRONG> [<a href="talk/ML05_Uncertainty_in_DL.pdf">pdf</a>], 20 Dec. 2018. Speaker: Ehsan Abbasnejad. </p>
+Abstract: Machine learning has been successfully applied to a wide range of applications. However, state-of-the-art methods are not generally equipped with the necessary means to explore the uncertainty. There are two main sources of uncertainty: in the data and in the assumptions about the model. For the later, Bayesian methods are designed to address the model uncertainty through explicit estimation of the distribution of the parameters. This is opposed to the current practice of using point estimate to obtain a single parameter to explain the model. In this talk, we discuss various aspects of uncertainty in machine learning in general and deep learning in particular.
+</p></li> 
+      
+      <li>  Title: <STRONG> Memory Networks and Graph Attention Networks</STRONG>  [<a href="talk/ML06_MemoryNetworks.pdf">pdf</a>], 10 Jan. 2019. Speaker: Javen Shi. </p>
+Abstract: Memory networks allow reasoning with long-term memory which can be read and written. They can also deal with variable sized inputs (for example, videos with varying lengths), and can focus on the most relevant parts of the input to make decisions. They can also operate on graphs with additional attractive properties. I will explain the idea and essence of Memory Networks, with an example in face recognition to show how you may apply to your applications. I will also discuss Graph Attention Networks in-depth, which are relevant to several on-going and future projects in AIML.
+</p></li>
+      
+      <li>  Title: <STRONG> Introduction to Deep Reinforcement Learning</STRONG> [<a href="talk/ML07_ReinforcementLearning.pdf">pdf</a>], 17 Jan. 2019. Speaker: Ehsan Abbasnejad. </p>
+Abstract: Deep reinforcement learning has gained significant attention in the past few years due to its tremendous success in various applications most notably Alpha Go where the world champion was defeated by the AI. In this talk, we will briefly discuss what the problem
+ setup for reinforcement learning is and how deep learning has been part of its success.
+</p></li>
+      
+      
+      <li>  Title: <STRONG> Combining Vision and Language</STRONG> [<a href="talk/ML08_VQA.pptx">ppt</a>], 24 Jan. 2019. Speaker: Qi Wu </p>
+Abstract: The fields of natural language processing (NLP) and computer vision (CV) have seen great advances in their respective goals of analysing and generating text, and of understanding images and videos. While both fields share a similar set of methods rooted in artificial intelligence and machine learning, they have historically developed separately. Recent years, however, have seen an upsurge of interest in problems that require a combination of linguistic and visual information. For example, Image Captioning and Visual Question Answering (VQA) are two important research topics in this area. Image captioning requires the machine to describe the image using human readable sentences while the VQA asks a machine to answer language-based questions based on the visual information. In this tutorial, I will first introduce the basic models and mechanisms in this area, such as CNN-RNN model, attention mechanism. Then I will outline some of the most recent progress and discuss the trend in this field.
+</p></li>
+      
+      
+      <li>  Title: <STRONG> Probabilistic Graphical Models 1: Representation</STRONG> [<a href="talk/ML09_PGM1_Representation.pdf">pdf</a>], 31 Jan. 2019. Speaker: Javen Shi </p>
+Abstract: I will start with the basics of probabilities and introduce the history of Probabilistic Graphical Models (PGMs) and current trend. I will cover the basic concepts of PGMs such as the representation, the factorisation rules, and basic tasks. I will show how to reason bayesian networks by hand. I will try to make this talk self-contained.
+</p></li>
+      
+      <li>  Title: <STRONG> Probabilistic Graphical Models 2: Inference Basics</STRONG> [<a href="talk/ML10_PGM2_Inference.pdf">pdf</a>], 7 Feb. 2019. Speaker: Javen Shi </p>
+Abstract: I will cover two basic types of inference tasks: Marginal inference and MAP inference. I will also cover inference methods such as variable elimination, sum-product and max-product algorithms.
+</p></li>
+
+   <li>  Title: <STRONG> Probabilistic Graphical Models 3 and 4: Learning Parameters [<a href="talk/ML11_PGM3_Learning parameters.pdf">pdf</a>], Learning Structures [<a href="talk/ML11_PGM4_Learning structures.pdf">pdf</a>] </STRONG> , 14 Feb. 2019. Speaker: Javen Shi </p>
+Abstract: I will cover how to learn the parameters, starting with simple ones such as Bayesian networks, and then moving onto Markov random fields including techniques such as Structured SVM and Conditional random fields. I will also cover how to learn structures focusing on a classical algorithm called Chow-Liu Tree algorithm.  
+</p></li>
+
+<li>  Title: <STRONG> Recent Development in Semantic Image Segmentation using FCNs</STRONG>, 21 Feb. 2019. Speaker: Zifeng Wu </p>
+Abstract: I will cover the original fully convolutional networks and the 
+family of DeepLab networks, as well as several practical considerations 
+in a nuclei segmentation task.
+</p></li>
+
+<li>  Title: <STRONG> A tutorial on deep neural networks. From theory to code</STRONG>, 28 Feb. 2019. Speaker: Michele (Mike) Sasdelli  </p>
+Abstract: I will present all the basic ingredients of deep neural networks for computer vision. From perceptrons to modern CNN architectures. The presentation with be complemented with simple neural networks examples written in pytorch.
+</p></li>
+
+<li>  Title: <STRONG> Relational Reasoning and Relation Networks </STRONG> [<a href="talk/ML14_RelationNetworks.pdf">pdf</a>], 7 March 2019. Speaker: Javen Shi  </p>
+Abstract: Relational reasoning is a central component of general intelligence, but has been difficult for neural networks to perform and learn. I will cover recent advances in Relation Networks (RNs) that can work as a simple plug-and-play module to solve many problems that fundamentally hinge on relational reasoning.
+</p></li>
+
+<li>  Title: <STRONG> Deep semi-supervised learning</STRONG>, 14 March 2019 (postponed to 21 March due to illness). Speaker: Lingqiao Liu  </p>
+Abstract: emi-supervised learning is a long-standing problem in machine learning, and the resurgence of deep learning has inspired many new semi-supervised approaches for deep neural networks. In this talk, I will cover several recent developments in deep semi-supervised learning, including temporal ensemble, mean teacher, virtual adversarial training etc..
+</p></li>
+
+
+<li>  Title: <STRONG> Generalized Zero-Shot Learning - An Overview</STRONG>, 28 March 2019. Speaker: Rafael FŽlix  </p>
+Bio: Currently, I am a Ph.D. research student at the Australian Centre for Robotic Vision (ACRV), and at the University of Adelaide. I am working under the supervision of Prof. Gustavo Carneiro and co-supervision of Prof. Ian Reid at The University of Adelaide. My research project aims to bring contributions to the fields of generalized zero-shot learning, zero-shot learning, and open-set recognition. Before I received M.Sc. degree in Computer Engineering from the Universidade Presbiteriana Mackenzie (Brazil Ð 2015), and B.Sc. on Information Systems, Universidade Estadual de Montes Claros (Brazil Ð 2011).
+His talk is mainly based on the following papers:
+Xian, Yongqin, et al. "Zero-shot learning-a comprehensive evaluation of the good, the bad and the ugly." IEEE transactions on pattern analysis and machine intelligence(2018).
+Felix, Rafael, et al. "Multi-modal cycle-consistent generalized zero-shot learning." Proceedings of the European Conference on Computer Vision (ECCV). 2018.
+</p></li>
+
+<li>  Title: <STRONG> From R-CNN to YOLO: A review over the popular deep learning based object detectors</STRONG> [<a href="talk/ML17_main.pdf">pdf1</a>] [<a href="talk/ML17_GIoU-CVPR.pdf">pdf2</a>], 11 April 2019. Speaker: Hamid Rezatofighi  </p>
+Abstract: In this talk, I will present the progress trend in recent object detection algorithms after the rise in popularity of deep neural networks. I will also discuss pros and cons of each approach. If I have enough time, I will present some practical details about their implementations such as the post-processing step and their regression losses, and also provide more insights  about their limitations.
+</p></li>
+
+<li>  Title: <STRONG> Variational Optimisation, Evolution Strategies and Sampling </STRONG> [<a href="talk/ML18_VO.pdf">notes</a>], 2 May 2019. Speaker: Javen Shi  </p>
+Abstract: How do we optimise a non-differentiable objective function (e.g. for a deep neural network) or even a 'black-box' objective function (which you do not necessarily know its math form but you can evaluate its value given input)? Variational Optimisation and Evolution Strategies can do so. As they involve sampling, I will cover some sampling techniques as well.
+</p></li>
+
+<li>  Title: <STRONG> Recent Advances in Neural Architecture Search </STRONG> [<a href="talk/ML19_NAS.pptx">ppt</a>], 9 May 2019. Speaker: Hao Chen  </p>
+Abstract: The goal of neural architecture search (NAS) is to automate the design of artificial neural networks. We have seen such methods surpassing manually designed models in various areas such as language modelling, image classification, super-resolution, segmentation and detection and in different aspects. In this tutorial, I will cover the methods underlying the current state of the art in this fast-paced field, and introduce some speed-up strategies under reasonable computation limit.
+</p></li>
+
+<li>  Title: <STRONG> Multi-Interaction with Charge Definition for Charge Prediction Based on Memory Network</STRONG>, 16 May 2019. Speaker: Liangyi Kang  </p>
+Abstract: Charge prediction, determining charges for a fact description in criminal cases, plays a significant role in legal assistant systems. Existing works for charge prediction are usually based on classification framework. However, charge characteristics of fact description is non-discriminative since it is lengthy, not uniform and normative, which makes them not represent fact accurately, especially in few-shot scene. To address this problem, we introduce charges definition of criminal law into charge prediction to modify non-disciminvative fact representation more charge-like. In particular, we design a novel framework, Multi-Interaction Memory Network, to normalize fact representation from context, text and word-level simultaneously for forming charge-like representation. Experimental results on CAIL2018 dataset states that our model achieves significant improves than baselines especially on few-shot class. Specifically, we use visualization to show our effectiveness of fact representation.
+</p></li>
+
+<li>  Title: <STRONG> Attention Is All You Need</STRONG>, 16 May 2019. Speaker: Amin Parvaneh  </p>
+Abstract: The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely, can beat complex recurrent or convolutional neural networks in many tasks. Amin will cover this famous work, and follow-up works.
+
+</p></li>
+
+<li>  Title: <STRONG> Predicting soccer players' future trajectories and moves</STRONG>, 6 June 2019. Speaker: Anthony Manchin  </p>
+Abstract: Anthony will give an overview of the pilot project in soccer that we started with Australian Institute of Sport, on predicting defensive team playersÕ future trajectories and moves, and discuss relevant techniques.
+</p></li>
+
+<li>  Title: <STRONG> An Introduction to Imitation Learning</STRONG>, 13 June 2019. Speaker: Ehsan Abbasnejad  </p>
+Abstract: In this talk, we present a broad overview of imitation learning and applications. Imitation learning, also known as learning from demonstrations or apprenticeship learning, has recently gained attention due to better learning approaches and novel applications brought about by deep learning. Imitation learning bridges the gap between supervised learning and reinforcement learning.
+</p></li>
+
+
+<li>  Title: <STRONG> DeepSightX using machine learning supported by best practice of geoscience to predict where to drill</STRONG>, 27 June 2019. Speakers: DeepSightX Team  </p>
+Abstract: Earlier this year, a team of machine learning scientists, engineers and geoscientists from the University of Adelaide came together with industry experts to form DeepSightX, and entered the Explorer Challenge, a global competition where data is used to predict mineral deposits in South Australia. This was the start of something unique and innovative; a group using AI supported by best practice geoscience to predict where to drill. We will share with you the competition, what we have achieved and some stories behind the scene perhaps. 
+</p></li>
+
+<li>  Title: <STRONG> Applying Machine Learning to Industry at Consilium Technology</STRONG>, 4 July 2019. Speaker: Sebastien Wong  </p>
+Abstract: Consilium Technology is an Adelaide-based machine learning and AI company established long before the rise of AI. It has many applications in defence, agtech, mining and so on, is fast growing in the past a few years. Consilium Technology's revolutionary AgTech product - GAIA - was the only nomination to win across all three categories for State iAwards 2019: 1) Core Category Winner - Industrial & Primary Industries; 2) Cross Technology Category Winner - Automation Technologies Innovation of the Year; 3) Cross Stage Category Winner - Research & Development Project of the Year. GAIA recently completed the National Vineyard Scan by identifying and mapping all of AustraliaÕs vineyards using AI and satellite imagery. The use of this technology to map crop-type for an entire continent is a world first achievement. Sebastien will let us know GAIA among other products and how they apply machine learning to solve real industry problems.
+</p></li>
+
+<li>  Title: <STRONG> Data assimilation and online social network analysis</STRONG>, 18 July 2019. Speaker: Lewis Mitchell  </p>
+Abstract: This will be a talk in two parts. In the first part I will give an overview of ensemble data assimilation. This a the method by which organisations like the Bureau of Meteorology blends observations from weather stations with physics-based weather models to produce improved initial conditions for their numerical weather forecasts. There are some parallels with neural networks which I will explain. In the second part, I will describe some of my recent computational social science research on online social networks, in particular how entropy-based measures can be used to place upper bounds on the predictability achievable by ML algorithms in online social systems. I will conclude with some potential ideas for future ML research in this direction.
+</p></li>
+
+<li>  Title: <STRONG> Robotics and IoT</STRONG>, 25 July 2019. Speaker: Tien-Fu Lu  </p>
+Abstract: Tien-Fu has a deep mech eng background and is leading a robotic lab that can build robots from scratch (instead of buying one), and exoskeleton. He builds both robotic arms as big as a bus (for mining), and small robots with nano scale control (surgery, medical, ...). He builds IoT solutions from scratch for agtech. He is involved in the Wine Australian project with us for the IoT solution, leak detection and more.
+</p></li>
+
+
+<li>  Title: <STRONG>  Memorizing Normality to Detect Anomaly -- Memory-augmented Deep Autoencoder (MemAE) for Unsupervised Anomaly Detection</STRONG>, 1 Aug. 2019. Speaker: Dong Gong  </p>
+Abstract: This talk mainly covers some basic concepts of memory-augmented deep model and one of our recent works of developing the memory-augmented deep autoencoder (MemAE) for unsupervised anomaly detection. 
+    Deep autoencoder has been extensively used for anomaly detection. Training on the normal data, the autoencoder is expected to produce higher reconstruction error for the abnormal inputs than the normal ones, which is adopted as a criterion for identifying anomalies. However, this assumption does not always hold in practice. It has been observed that sometimes the autoencoder ÒgeneralizesÓ so well that it can also reconstruct anomalies well, leading to the miss detection of anomalies. To mitigate this drawback for autoencoder based anomaly detector, we propose to augment the autoencoder with a memory module and develop an improved autoencoder called memory-augmented autoencoder, i.e. MemAE. Given an input, MemAE firstly obtains the encoding from the encoder and then uses it as a query to retrieve the most relevant memory items for reconstruction. At the training stage, the memory contents are updated and are encouraged to represent the prototypical elements of the normal data. At the test stage, the learned memory will be fixed, and the reconstruction is obtained from a few selected memory records of the normal data. The reconstruction will thus tend to be close to a normal sample. Thus the reconstructed errors on anomalies will be strengthened for anomaly detection. MemAE is free of assumptions on the data type and thus general to be applied to different tasks. Experiments on various datasets prove the excellent generalization and high effectiveness of the proposed MemAE.
+</p></li>
+
+<li>  Title: <STRONG>  Theoretical Impediments to Machine Learning With Seven Sparks from the Causal Revolution</STRONG>, 15 Aug. 2019. Speaker: Javen Shi  </p>
+Abstract: I will share Judea Pearl's thoughts on the mainstream machine learning methods and causality (not so mainstream) with you. 
+
+Current machine learning systems operate, almost exclusively, in a statistical, or model-free mode, which entails severe theoretical limits on their power and performance. Such systems cannot reason about interventions and retrospection and, therefore, cannot serve as the basis for strong AI. To achieve human level intelligence, learning machines need the guidance of a model of reality, similar to the ones used in causal inference tasks. To demonstrate the essential role of such models, seven tasks are presented which are beyond reach of current machine learning systems and which have been accomplished using the tools of causal modeling.
+</p></li>
+
+<li>  Title: <STRONG>  Exploring The Timber Industry With Machine Learning</STRONG>, 22 Aug. 2019. Speaker: Anthony Manchin  </p>
+Abstract: The timber industry contributed more than $16 billion to the Australian economy last year and is a truly fascinating industry. Saw mills, which process green logs, are full of mechanical engineering, sensors, and robotics. This places them in a unique position to capitalise on state of the art advances in machine learning to improve efficiencies and optimise various workflows. This talk will discuss some of the opportunities for research in an industry that has been traditionally very mechanicalÉ until now.
+</p></li>
+
+<li>  Title: <STRONG>  A critique of pure learning and what artificial neural networks can learn from animal brains (by Anthony M. Zador, Nature Communications, 2019)</STRONG>, 29 Aug. 2019. Speaker: Javen Shi  </p>
+Abstract: Artificial neural networks (ANNs) have undergone a revolution, catalyzed by better supervised learning algorithms. However, in stark contrast to young animals (including humans), training such networks requires enormous numbers of labeled examples, leading to the belief that animals must rely instead mainly on unsupervised learning. Here we argue that most animal behavior is not the result of clever learning algorithms --- supervised or unsupervised --- but is encoded in the genome. Specifically, animals are born with highly structured brain connectivity, which enables them to learn very rapidly. Because the wiring diagram is far too complex to be specified explicitly in the genome, it must be compressed through a ''genomic bottleneck''. The genomic bottleneck suggests a path toward ANNs capable of rapid learning.
+</p></li>
+
+    </ol>
+	
+    </td>
+  </tr>
+	
+	
+	<br><br>
+  
+
+<br><br>
+  
+
+	
+	<!-- Teaching -->
+  <tr>
+  <td colspan=2>
+    <a name="teaching"></a> <h3>University Courses </h3>
+    <ul>
+      <li> Computer Vision (COMP SCI 4022/7022), Semester 1, 2018 (Coordinator and Lecturer)</p> </li>
+      <li> Mining Big Data (COMP SCI 3306/7306), Semester 1, 2018 (Coordinator and Lecturer)</p> </li>
+      <li> Artificial Intelligence (COMP SCI 3007/7059), Semester 1, 2017 (Coordinator and Lecturer)</p> </li>
+      <li> Scientific Computing (COMP SCI 1012/1012BR), Semester 1, 2017 (Lecturer)</p> </li>
+      <li> Introduction to Statistical Machine Learning (COMP SCI 4401/7401), Semester 2, 2016 </a> (Lecturer)</p> </li>
+      <li> Introduction to Geometric Algorithms (COMP SCI 4402/4802/7402), Semester 2, 2016 (Lecturer)</p> </li>
+      <li> Scientific Computing (COMP SCI 1012/1012BR), Semester 1, 2016 (Lecturer)</p> </li>
+      <li> <a href="course_ML15.html"> Introduction to Statistical Machine Learning (COMP SCI 4401/7401), Semester 2, 2015 </a> (Coordinator and Lecturer)</p> </li>
+      <li> Artificial Intelligence (COMP SCI 3007/7059), Semester 1, 2015 (Lecturer)</p> </li>
+      <li> Scientific Computing (COMP SCI 1012/1012BR), Semester 1, 2015 (Coordinator and Lecturer)</p> </li>
+	<li> <a href="course_ML14.html"> Introduction to Statistical Machine Learning (COMP SCI 4401/7401), Semester 2, 2014 </a> (Coordinator and Lecturer)</p> </li>
+	<li> Introduction to Statistical Machine Learning (COMP SCI 4401/7401), Semester 2, 2013 (Lecturer) </p></li>
+	<li> Introduction to Statistical Machine Learning (COMP SCI 4401/7401), Semester 2, 2012 (Guest Lecturer) </p></li>
+    </ul>
+  </td>
+  </tr>
+  
+  <br><br>
+  
+	
+    <!-- tutorials -->
+  <tr>
+  <td colspan=2>
+    <h3>Past Tutorials </h3>
+	<h4>Probabilistic Graphical Models</h4>
+    <ol>
+      <li> Representation [<a href="talk/slt_slide_lecture1.pdf"> pdf</a>], ACVT, UoA, April 15, 2011 </p></li>
+	  <li> Inference [<a href="talk/slt_slide_lecture2.pdf"> pdf</a>], ACVT, UoA, May 6, 2011 </p></li>
+	  <li> Learning [<a href="talk/slt_slide_lecture3.pdf"> pdf</a>], ACVT, UoA, May 27, 2011 </p></li>
+	  <li> Sampling-based approximate inference [<a href="talk/slt_slide_lecture4.pdf"> pdf</a>], ACVT, UoA, June 10, 2011 </p></li>
+	  <li> Temporal models [<a href="talk/slt_slide_lecture5.pdf"> pdf</a>], ACVT, UoA, August 12, 2011 </p></li>
+    </ol>
+	
+	<h4>Generalisation Bounds</h4>
+    <ol>
+      <li> Basics [<a href="talk/bounds_slide1.pdf"> pdf</a>], ACVT, UoA, April 13, 2012 </p></li>
+	  <li> VC dimensions and bounds [<a href="talk/bounds_slide2.pdf"> pdf</a>], ACVT, UoA, April 27, 2012 </p></li>
+	  <li> Rademacher complexity and bounds [<a href="talk/bounds_slide3.pdf"> pdf</a>], ACVT, UoA, August 17, 2012 </p></li>
+	  <li> PAC Bayesian Bounds, [<a href="talk/bounds_slide4.pdf"> pdf</a>], ACVT, UoA, August 31, 2012 </p></li>
+	  <li> Regret bounds for online learning, [<a href="talk/bounds_slide5.pdf"> pdf</a>], ACVT, UoA, Nov. 2, 2012 </p></li>
+	  </ol>
+	Please email me if you find errors or typos in the slides.
+  </td>
+  </tr>
+  
+   
+   
+</div>
+</div>
+
+
+
+
+</body></html>
